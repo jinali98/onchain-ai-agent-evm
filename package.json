@@ -1,0 +1,23 @@
+{
+  "name": "onchain-ai-agent-evm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "openai": "^4.73.1",
+    "viem": "^2.23.8"
+  }
+}
